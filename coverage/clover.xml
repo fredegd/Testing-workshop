@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1704808521382" clover="3.2.0">
-  <project timestamp="1704808521382" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="9" coveredelements="9" complexity="0" loc="6" ncloc="6" packages="1" files="3" classes="3"/>
+<coverage generated="1704819757092" clover="3.2.0">
+  <project timestamp="1704819757093" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8" elements="31" coveredelements="31" complexity="0" loc="21" ncloc="21" packages="1" files="2" classes="2"/>
     <file name="cloneArray.js" path="/Users/Federico/Documents/EXPERIMENTAL/test_workshop/cloneArray.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="2" count="2" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
     </file>
-    <file name="subtract.js" path="/Users/Federico/Documents/EXPERIMENTAL/test_workshop/subtract.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+    <file name="utils.js" path="/Users/Federico/Documents/EXPERIMENTAL/test_workshop/utils.js">
+      <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+      <line num="1" count="7" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-    </file>
-    <file name="sum.js" path="/Users/Federico/Documents/EXPERIMENTAL/test_workshop/sum.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="7" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
+      <line num="8" count="7" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="7" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="7" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="20" count="7" type="stmt"/>
+      <line num="21" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="5" type="stmt"/>
+      <line num="25" count="7" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="6" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="33" count="7" type="stmt"/>
     </file>
   </project>
 </coverage>
