@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1704823177898" clover="3.2.0">
-  <project timestamp="1704823177898" name="All files">
+<coverage generated="1704823587789" clover="3.2.0">
+  <project timestamp="1704823587789" name="All files">
     <metrics statements="27" coveredstatements="27" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8" elements="43" coveredelements="43" complexity="0" loc="27" ncloc="27" packages="1" files="2" classes="2"/>
     <file name="cloneArray.js" path="/Users/Federico/Documents/EXPERIMENTAL/test_workshop/cloneArray.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
