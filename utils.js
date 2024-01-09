@@ -19,6 +19,7 @@ const percentage = (a, b) => {
 
 const factorial = (n) => {
   if (n === 0) return 1;
+  console.log(n, n - 1, "factorial")
   return n * factorial(n - 1);
 };
 
