@@ -1,6 +1,6 @@
-const sum =(a, b) =>{
-    return a + b;
-}
+const sum = (a, b) => {
+  return a + b;
+};
 const subtract = (a, b) => {
   return a - b;
 };
@@ -24,10 +24,26 @@ const factorial = (n) => {
 
 const fibonacci = (length) => {
   var sequence = [0, 1];
-  for (var i = 2; i <= length; ++i) {
-    sequence[i] = sequence[i - 1] + sequence[i - 2];
+  if (length === 1) {
+    return [0];
+  } else if (length === 2) {
+    return sequence;
+  }else if (length > 2) {
+    for (var i = 2; i < length; i++) {
+      sequence.push(sequence[i - 1] + sequence[i - 2]);
+    }
+    return sequence;
+  }else{
+    return [];
   }
-  return sequence;
 };
 
-module.exports ={sum, subtract, multiply, divide, percentage, factorial, fibonacci}
+module.exports = {
+  sum,
+  subtract,
+  multiply,
+  divide,
+  percentage,
+  factorial,
+  fibonacci,
+};
